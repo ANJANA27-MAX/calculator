@@ -3,14 +3,14 @@ while True:
    print("2 - Sub")
    print("3 - Multiply")
    print("4 - Divide")
-   print("Enter q or Q to exit")
-   x = int(input (" Choose an operation  "))
+   print("Enter q or Q to exit.")
+   x = int(input (" Choose an operation  :"))
     
    if (x == 'q' or x =='Q'):
      break
          
-   num1 = int(input("ENTER YOUR FIRST NUMBER  "))
-   num2 = int(input("ENTER YOUR SECOND NUMBER  "))
+   num1 = int(input("ENTER YOUR FIRST NUMBER  :"))
+   num2 = int(input("ENTER YOUR SECOND NUMBER  :"))
             
    if(x == 1):
       result = num1+ num2
@@ -21,9 +21,9 @@ while True:
    elif (x == 4):
       result = num1 // num2
    else:
-      print("select valid operation")
+      print("Select valid operation.")
         
-   print("the result is ",result)        
+   print("Result: ",result)        
         
         
         
